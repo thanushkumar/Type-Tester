@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="log.css"></head>
+<body>
+    <div class="nav">
+        <h2>Type Tester</h2>
+        <a href="index.html">Home</a>
+        <a href="signup.html">Login/signup</a>
+        <a href="about.html">About Us</a>
+    </div>
+    <div class="container">
+	<div class="login-box">
+        <h1>Login</h1>
+        <form id="login-form" action="/server/exist.php" method="post">
+            <div class="input-group">
+                <label for="username">Username/Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+		</div>
+    </div>
+</body>
+</html>
